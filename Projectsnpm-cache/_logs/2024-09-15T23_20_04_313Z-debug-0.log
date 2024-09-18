@@ -1,0 +1,86 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v20.9.0
+3 silly config load:file:C:\Users\Acer\AppData\Roaming\nvm\v20.9.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Acer\.npmrc
+5 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+6 verbose title npm i turbo
+7 verbose argv "i" "--global" "turbo"
+8 verbose logfile logs-max:10 dir:D:\Projects\turborepo-snef\Projectsnpm-cache\_logs\2024-09-15T23_20_04_313Z-
+9 verbose logfile D:\Projects\turborepo-snef\Projectsnpm-cache\_logs\2024-09-15T23_20_04_313Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest turbo@*
+14 silly packumentCache full:https://registry.npmjs.org/turbo cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/turbo 10935ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/turbo set size:1298912 disposed:false
+17 silly placeDep ROOT turbo@2.1.2 OK for:  want: *
+18 silly fetch manifest turbo-darwin-64@2.1.2
+19 silly packumentCache full:https://registry.npmjs.org/turbo-darwin-64 cache-miss
+20 silly fetch manifest turbo-darwin-arm64@2.1.2
+21 silly packumentCache full:https://registry.npmjs.org/turbo-darwin-arm64 cache-miss
+22 silly fetch manifest turbo-linux-64@2.1.2
+23 silly packumentCache full:https://registry.npmjs.org/turbo-linux-64 cache-miss
+24 silly fetch manifest turbo-linux-arm64@2.1.2
+25 silly packumentCache full:https://registry.npmjs.org/turbo-linux-arm64 cache-miss
+26 silly fetch manifest turbo-windows-64@2.1.2
+27 silly packumentCache full:https://registry.npmjs.org/turbo-windows-64 cache-miss
+28 silly fetch manifest turbo-windows-arm64@2.1.2
+29 silly packumentCache full:https://registry.npmjs.org/turbo-windows-arm64 cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/turbo-windows-arm64 819ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/turbo-windows-arm64 set size:undefined disposed:false
+32 http fetch GET 200 https://registry.npmjs.org/turbo-linux-64 1189ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/turbo-linux-64 set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/turbo-linux-arm64 1611ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/turbo-linux-arm64 set size:undefined disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/turbo-darwin-arm64 1746ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/turbo-darwin-arm64 set size:undefined disposed:false
+38 http fetch GET 200 https://registry.npmjs.org/turbo-windows-64 8414ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/turbo-windows-64 set size:929619 disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/turbo-darwin-64 9341ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/turbo-darwin-64 set size:924437 disposed:false
+42 silly placeDep node_modules/turbo turbo-darwin-64@2.1.2 OK for: turbo@2.1.2 want: 2.1.2
+43 silly placeDep node_modules/turbo turbo-darwin-arm64@2.1.2 OK for: turbo@2.1.2 want: 2.1.2
+44 silly placeDep node_modules/turbo turbo-linux-64@2.1.2 OK for: turbo@2.1.2 want: 2.1.2
+45 silly placeDep node_modules/turbo turbo-linux-arm64@2.1.2 OK for: turbo@2.1.2 want: 2.1.2
+46 silly placeDep node_modules/turbo turbo-windows-64@2.1.2 OK for: turbo@2.1.2 want: 2.1.2
+47 silly placeDep node_modules/turbo turbo-windows-arm64@2.1.2 OK for: turbo@2.1.2 want: 2.1.2
+48 silly reify moves {}
+49 verbose reify failed optional dependency C:\Users\Acer\AppData\Roaming\nvm\v20.9.0\node_modules\turbo\node_modules\turbo-windows-arm64
+50 silly reify mark deleted [
+50 silly reify   'C:\\Users\\Acer\\AppData\\Roaming\\nvm\\v20.9.0\\node_modules\\turbo\\node_modules\\turbo-windows-arm64'
+50 silly reify ]
+51 verbose reify failed optional dependency C:\Users\Acer\AppData\Roaming\nvm\v20.9.0\node_modules\turbo\node_modules\turbo-linux-arm64
+52 silly reify mark deleted [
+52 silly reify   'C:\\Users\\Acer\\AppData\\Roaming\\nvm\\v20.9.0\\node_modules\\turbo\\node_modules\\turbo-linux-arm64'
+52 silly reify ]
+53 verbose reify failed optional dependency C:\Users\Acer\AppData\Roaming\nvm\v20.9.0\node_modules\turbo\node_modules\turbo-linux-64
+54 silly reify mark deleted [
+54 silly reify   'C:\\Users\\Acer\\AppData\\Roaming\\nvm\\v20.9.0\\node_modules\\turbo\\node_modules\\turbo-linux-64'
+54 silly reify ]
+55 verbose reify failed optional dependency C:\Users\Acer\AppData\Roaming\nvm\v20.9.0\node_modules\turbo\node_modules\turbo-darwin-arm64
+56 silly reify mark deleted [
+56 silly reify   'C:\\Users\\Acer\\AppData\\Roaming\\nvm\\v20.9.0\\node_modules\\turbo\\node_modules\\turbo-darwin-arm64'
+56 silly reify ]
+57 verbose reify failed optional dependency C:\Users\Acer\AppData\Roaming\nvm\v20.9.0\node_modules\turbo\node_modules\turbo-darwin-64
+58 silly reify mark deleted [
+58 silly reify   'C:\\Users\\Acer\\AppData\\Roaming\\nvm\\v20.9.0\\node_modules\\turbo\\node_modules\\turbo-darwin-64'
+58 silly reify ]
+59 silly tarball no local data for turbo@https://registry.npmjs.org/turbo/-/turbo-2.1.2.tgz. Extracting by manifest.
+60 silly tarball no local data for turbo-windows-64@https://registry.npmjs.org/turbo-windows-64/-/turbo-windows-64-2.1.2.tgz. Extracting by manifest.
+61 http fetch GET 200 https://registry.npmjs.org/turbo/-/turbo-2.1.2.tgz 116ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/turbo-windows-64/-/turbo-windows-64-2.1.2.tgz 14115ms (cache miss)
+63 silly ADD node_modules/turbo
+64 silly ADD
+65 silly ADD node_modules/turbo/node_modules/turbo-windows-64
+66 silly ADD
+67 silly ADD
+68 silly ADD
+69 silly ADD
+70 verbose cwd D:\Projects\turborepo-snef
+71 verbose os Windows_NT 10.0.22621
+72 verbose node v20.9.0
+73 verbose npm  v10.8.1
+74 verbose exit 0
+75 info ok

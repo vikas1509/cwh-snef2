@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ /* :root {
+  --background: var(--background);
+  --foreground: var(--foreground);
+}  */
+
+ /* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}   */
+
+html,
+body,
+:root {
+  height: 100%;
+  
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff; /* white */
+    --foreground: #f4f4f4; /* dark greenish */
+    --card: hsl(0, 0%, 100%);
+    --card-foreground: hsl(0, 0%, 3.9%);
+    --popover: hsl(0, 0%, 100%);
+    --popover-foreground: hsl(0, 0%, 3.9%);
+    --primary: #293119;
+    --primary-foreground: #F4F4F4;/* Black */
+    --secondary: #293119;
+    --secondary-foreground:#CFF57F;
+    --nav-btn:#293119
+    --muted: hsl(0, 0%, 96.1%); 
+    --text-primary:#293119;
+    --muted-foreground: hsl(0, 0%, 45.1%);
+    --accent: hsl(0, 0%, 96.1%);
+    --accent-foreground: hsl(0, 0%, 9%);
+    --destructive: hsl(0, 84.2%, 60.2%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+    --border: hsl(0, 0%, 89.8%);
+    --input: hsl(0, 76%, 45%);
+    --ring: hsl(0, 0%, 3.9%);
+    --chart-1: hsl(12, 76%, 61%);
+    --chart-2: hsl(173, 58%, 39%);
+    --chart-3: hsl(197, 37%, 24%);
+    --chart-4: hsl(43, 74%, 66%);
+    --chart-5: hsl(27, 87%, 67%);
+    --radius: 0.5rem;
+  }
+
+  [data-theme="dark"] {
+--background: #121212; /* Very dark gray, almost black */
+  --foreground: #242424; /* Light gray for main text */
+  --primary:#ECFBCC  ; /* sign up button bg */
+  --primary-foreground:#242424; /* Lime green for accents and buttons nav bar button sign up button */
+  --secondary:#293119; /* Slightly lighter gray for secondary elements button   */
+  --secondary-foreground:#CFF57F; /* Light gray for text on secondary elements button bg */
+  
+  --navbtn:#CFF57F;
+  --input-bg:#A7A7A7; 
+  --muted: #2a2a2a; /* Muted background for some elements */
+  --muted-foreground: #a0a0a0; /* Muted text color */
+  --accent: #a3e635; /* Same as primary for consistency */
+  --accent-foreground: #0a0a0a; /* Very dark gray for text on accent elements */
+  --border: #333333; /* Darker gray for borders */
+  --input: #1f1f1f; /* Slightly lighter gray for input fields */
+  --ring: #a3e635; 
+  }
+}

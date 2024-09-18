@@ -1,0 +1,12 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v20.9.0
+3 silly config load:file:C:\Users\Acer\AppData\Roaming\nvm\v20.9.0\node_modules\npm\npmrc
+4 silly config load:file:D:\Projects\turborepo-snef\.npmrc
+5 silly config load:file:C:\Users\Acer\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:D:\Projects\turborepo-snef\Projectsnpm-cache\_logs\2024-09-17T11_51_21_764Z-
+10 verbose logfile D:\Projects\turborepo-snef\Projectsnpm-cache\_logs\2024-09-17T11_51_21_764Z-debug-0.log
+11 silly logfile done cleaning log files
